@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------- Header ------------------------------  */
+
+
+header {
+    background-image: url('images/mobile/image-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.hamburger img {
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.left-hand {
+    display: none;
+    color: white;
+    z-index: 4;
+}
+
+.logo img {
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    z-index: 3;
+    left: 20px;
+}
+
+.intro-heading {
+    border: 2px solid white;
+    width: 90vw;
+    height: 250px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-heading h1 {
+    color: white;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.black-menu {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.left-hand .nav-list>li:hover {
+    color: grey;
+}
+
+/* Leader Section  */
+
+
+.leader-section {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.vr-image img {
+    width: 350px;
+    padding-bottom: 40px;
+}
+
+.about-vr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vr-heading {
+    width: 272px;
+    padding: 10px;
+}
+
+.vr-heading h1 {
+    font-size: 28px;
+    font-family: 'Josefin Sans';
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.vr-para {
+    padding-right: 55px;
+    padding-left: 55px;
+    height: 200px;
+}
+
+.vr-para p {
+    text-align: center;
+    color: hsl(0, 0%, 55%);
+}
+
+
+/* CREATION SECTION  */
+
+.creations {
+    position: relative;
+    top: 100px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.creation-heading h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
+.creations-boxes {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index: 3;
+}
+
+.creations-boxes:hover {
+    opacity: .6;
+}
+
+.creations-boxes h2 {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    padding: 20px;
+    z-index: 4;
+}
+
+.creations-boxes h2:hover {
+    text-shadow: 1px 1px 1px black;
+}
+
+.deep {
+    background-image: url('images/mobile/image-deep-earth.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.night {
+    background-image: url('images/mobile/image-night-arcade.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.soccer {
+    background-image: url('images/mobile/image-soccer-team.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.fish {
+    background-image: url('images/mobile/image-fisheye.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.above {
+    background-image: url('images/mobile/image-from-above.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.grid {
+    background-image: url('images/mobile/image-grid.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.pocket {
+    background-image: url('images/mobile/image-pocket-borealis.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.curiosity {
+    background-image: url('images/mobile/image-curiosity.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.button button {
+    padding: 10px 50px;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid hsl(0, 0%, 41%);
+}
+
+.button button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+
+/* Footer  */
+
+footer {
+    border: 2px solid black;
+    position: relative;
+    top: 150px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li {
+    padding: 10px 0px;
+    list-style-type: none;
+    font-family: 'Josefin Sans';
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.copyright {
+    padding: 15px 0px;
+}
+
+.copyright p {
+    color: hsl(0, 0%, 55%);
+    font-family: 'Alata';
+}
+
+/* Responsive Design  */
+
+
+@media screen and (width: 1280px) {
+
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        background-image: url('images/desktop/image-hero.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+    }
+
+    header::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .left-hand {
+        display: block;
+        position: absolute;
+        right: 90px;
+        top: 50px;
+    }
+
+    .left-hand ul {
+        display: flex;
+    }
+
+    .left-hand ul>li {
+        list-style-type: none;
+        padding-left: 20px;
+        font-family: 'Alata';
+        font-size: 15px;
+        color: white;
+    }
+
+    .logo img {
+        top: 50px;
+        left: 150px;
+        width: 200px;
+    }
+
+    .intro-heading {
+        width: 50vw;
+        left: 150px;
+    }
+
+    .intro-heading h1 {
+        font-size: 65px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+
+
+    /* Leader section */
+
+    .vr-image img {
+        width: 500px;
+        padding-bottom: 40px;
+        position: absolute;
+        top: -30px;
+        left: 150px;
+    }
+
+    .about-vr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+        background-color: white;
+        width: 50%;
+        top: 114px;
+        left: 585px;
+    }
+
+
+    /* Creation boxes  */
+
+    .creations {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 800px;
+        grid-template-rows: repeat(3, auto);
+        width: 60vw;
+        margin: auto;
+    }
+
+    .creation-heading {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .creation-heading h2 {
+        padding: 0px;
+        font-weight: bold;
+    }
+
+    .creations-boxes {
+        margin-top: 0px;
+        width: 180px;
+    }
+
+
+    .button {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        margin-top: 0px;
+    }
+
+    .deep {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('images/desktop/image-deep-earth.jpg');
+    }
+
+    .night {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('images/desktop/image-night-arcade.jpg');
+    }
+
+    .soccer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('images/desktop/image-soccer-team.jpg');
+    }
+
+    .fish {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('images/desktop/image-fisheye.jpg');
+    }
+
+    .above {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('images/desktop/image-from-above.jpg');
+    }
+
+    .grid {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('images/desktop/image-grid.jpg');
+    }
+
+    .pocket {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('images/desktop/image-pocket-borealis.jpg');
+    }
+
+    .curiosity {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('images/mobile/image-curiosity.jpg');
+    }
+
+    /* Footer  */
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .list ul {
+        display: flex;
+    }
+
+    .list ul>li {
+        padding: 5px 10px;
+    }
+
+    .copyright {
+        padding: 5px 0px;
+    }
+
+}
